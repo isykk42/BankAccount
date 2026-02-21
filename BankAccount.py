@@ -27,19 +27,3 @@ class BankAccount:
 
     def get_account_number(self):
         return self.__account_number
-
-
-fart = BankAccount("Meow", 100, 20)
-poop = BankAccount("Miau", 200, 50)
-
-fart.print_customer_information()
-fart.deposit(75)
-fart.print_customer_information()
-
-poop.print_customer_information()
-poop.withdraw(75)
-poop.print_customer_information()
-
-poop.withdraw(150)
-poop.print_customer_information()
-
